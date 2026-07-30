@@ -1,6 +1,6 @@
 //good practice to separate all API's to keep track of all APIs in use
 
-const API_KEY = "2ad34c1a0b171db639bf6626860f0f6c";
+const API_KEY = import.meta.env.API_KEY;
 const BASE_URL = "https://api.themoviedb.org/3";
 
 
